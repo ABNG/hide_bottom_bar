@@ -12,7 +12,7 @@ class Screen2 extends StatelessWidget {
           onTap: () {
             MyController.controller.bottomNavigationBar.setTab(0);
           },
-          child: Text("Screen2")),
+          child: const Text("Screen2")),
     );
   }
 }
